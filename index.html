@@ -2,12 +2,27 @@
 <html>
 <head>
 <title>videosOpticalia</title>
+  <style>
+   body
+.fixed {
+       position: fixed;
+       padding: 0px;
+       top: 0;
+       left: 0;
+   }
+   </style>
 </head>
 
-<body>
-<video width="1080" height="1920" controls>
-  <source src="vid.m4v" type="video/mp4">
+ <body>
+  <div class="fixed">
+    <figure id="video_player">
+      <div id="video_container">
+        <video controls playsinline>
+          
+<video width="1080" height="1920" autoplay loop muted>
+  <source src="Março2023Comp.mp4" type="video/mp4">
 </video>
+</div>
 </body>
 
 </html>
